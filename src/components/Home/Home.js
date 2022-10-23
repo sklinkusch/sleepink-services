@@ -17,6 +17,9 @@ function Home () {
         <li>
           <Link to="/linode">Linode</Link>
         </li>
+        <li>
+          <Link to="/vercel">Vercel</Link>
+        </li>
       </ul>
     </div>
   )

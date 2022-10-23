@@ -4,6 +4,7 @@ import Billbee from '../Billbee/Billbee';
 import Home from '../Home/Home';
 import Linode from '../Linode/Linode';
 import Shopify from '../Shopify/Shopify';
+import Vercel from "../Vercel/Vercel";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/billbee" element={<Billbee />} />
           <Route path="/shopify" element={<Shopify />} />
           <Route path="/linode" element={<Linode />} />
+          <Route path="/vercel" element={<Vercel />} />
           <Route path="" element={<Home />} />
           <Route path="*" element={<Home />} />
         </Routes>
