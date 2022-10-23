@@ -6,12 +6,14 @@ import Integromat from '../Integromat/Integromat';
 import Linode from '../Linode/Linode';
 import Shopify from '../Shopify/Shopify';
 import Vercel from "../Vercel/Vercel";
+import Asana from "../Asana/Asana";
 
 function App() {
   return (
     <Router basename={`${process.env.PUBLIC_URL}`}>
       <div className='App container' sx={{ textAlign: "center", backgroundColor: "whitesmoke", opacity: 1, width: "100%", minHeight: "96vh", fontFamily: "body" }}>
         <Routes>
+          <Route path="/asana" element={<Asana />} />
           <Route path="/billbee" element={<Billbee />} />
           <Route path="/integromat" element={<Integromat />} />
           <Route path="/shopify" element={<Shopify />} />

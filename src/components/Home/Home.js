@@ -23,6 +23,9 @@ function Home () {
         <li>
           <Link to="/integromat">Integromat</Link>
         </li>
+        <li>
+          <Link to="/asana">Asana</Link>
+        </li>
       </ul>
     </div>
   )
