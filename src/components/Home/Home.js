@@ -20,6 +20,9 @@ function Home () {
         <li>
           <Link to="/vercel">Vercel</Link>
         </li>
+        <li>
+          <Link to="/integromat">Integromat</Link>
+        </li>
       </ul>
     </div>
   )
