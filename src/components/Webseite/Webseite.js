@@ -1,6 +1,6 @@
 /** @jsxImportSource theme-ui */
 
-import { Link } from 'react-router-dom'
+import Pagination from "../Pagination/Pagination"
 import Struktur from "./Struktur.png"
 
 function Webseite () {
@@ -8,9 +8,7 @@ function Webseite () {
     <div sx={{ px: "25px", textAlign: "justify", pb: "50px" }}>
       <h1>Struktur der alten Webseite</h1>
       <img src={Struktur} alt="Struktur der Webseite" />
-      <div sx={{ mt: "50px" }}>
-        <Link to="/">Zurück zur Hauptseite</Link>
-      </div>
+      <Pagination prev={{ url: "/sanity", title: "Sanity" }} next={{ url: "/weitere", title: "Weitere Services"}} />
     </div>
   )
 }

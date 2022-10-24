@@ -45,6 +45,9 @@ function Home () {
           <Link to="/weitere">Weitere Services</Link>
         </li>
       </ol>
+      <div sx={{ mt: "50px" }}>
+        © Stefan Klinkusch, 2022
+      </div>
     </div>
   )
 }

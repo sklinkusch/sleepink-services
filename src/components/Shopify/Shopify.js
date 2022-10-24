@@ -1,6 +1,6 @@
 /** @jsxImportSource theme-ui */
 
-import { Link } from "react-router-dom"
+import Pagination from "../Pagination/Pagination"
 
 function Shopify () {
   return (
@@ -37,9 +37,7 @@ function Shopify () {
           <li>Vanilla-JavaScript</li>
         </ul>
       </ul>
-      <div sx={{ mt: "50px" }}>
-        <Link to="/">Zurück zur Hauptseite</Link>
-      </div>
+      <Pagination next={{ url: "/billbee", title: "Billbee" }} />
     </div>
   )
 }

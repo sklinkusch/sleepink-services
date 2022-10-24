@@ -1,6 +1,6 @@
 /** @jsxImportSource theme-ui */
 
-import { Link } from 'react-router-dom'
+import Pagination from "../Pagination/Pagination"
 
 function Netlify () {
   return (
@@ -20,10 +20,10 @@ function Netlify () {
       <ul>
         <li>Gatsby</li>
         <li>React</li>
+        <li><a href="https://www.npmjs.com/package/theme-ui" target="_blank" rel="noopener noreferrer">Theme-UI</a></li>
+        <li><a href="https://www.npmjs.com/package/styled-components" target="_blank" rel="noopener noreferrer">Styled components</a></li>
       </ul>
-      <div sx={{ mt: "50px" }}>
-        <Link to="/">Zurück zur Hauptseite</Link>
-      </div>
+      <Pagination prev={{ url: "/slack", title: "Slack" }} next={{ url: "/github", title: "GitHub"}} />
     </div>
   )
 }

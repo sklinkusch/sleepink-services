@@ -1,6 +1,6 @@
 /** @jsxImportSource theme-ui */
 
-import { Link } from "react-router-dom"
+import Pagination from "../Pagination/Pagination"
 
 function Linode () {
   return (
@@ -58,9 +58,7 @@ function Linode () {
         <li>Login über SSH</li>
         <li>NodeJS</li>
       </ul>
-      <div sx={{ mt: "50px" }}>
-        <Link to="/">Zurück zur Hauptseite</Link>
-      </div>
+      <Pagination prev={{ url: "/billbee", title: "Billbee" }} next={{ url: "/vercel", title: "Vercel"}} />
     </div>
   )
 }

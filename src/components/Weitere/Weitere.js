@@ -1,6 +1,6 @@
 /** @jsxImportSource theme-ui */
 
-import { Link } from 'react-router-dom'
+import Pagination from '../Pagination/Pagination'
 
 function Weitere () {
   return (
@@ -15,9 +15,7 @@ function Weitere () {
       </p>
       <h2>Cloudflare</h2>
       <p>Cloudflare ist der Service, der bestimmte Domains (wie sleep.ink) mit den entsprechenden Services verbindet. So wird z.B. sleep.ink mit Shopify verknüpft, imap.sleep.ink mit Google, ticket.sleep.ink und support.sleep.ink mit Vercel usw.</p>
-      <div sx={{ mt: "50px" }}>
-        <Link to="/">Zurück zur Hauptseite</Link>
-      </div>
+      <Pagination prev={{ url: "/webseite", title: "Struktur der alten Webseite" }} />
     </div>
   )
 }

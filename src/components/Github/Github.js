@@ -1,6 +1,6 @@
 /** @jsxImportSource theme-ui */
 
-import { Link } from 'react-router-dom'
+import Pagination from "../Pagination/Pagination"
 
 function Github () {
   return (
@@ -17,9 +17,7 @@ function Github () {
       </ul>
       <h2>Techniken</h2>
       <p>keine zusätzlichen Techniken</p>
-      <div sx={{ mt: "50px" }}>
-        <Link to="/">Zurück zur Hauptseite</Link>
-      </div>
+      <Pagination prev={{ url: "/netlify", title: "Netlify"}} next={{ url: "/sanity", title: "Sanity"}} />
     </div>
   )
 }

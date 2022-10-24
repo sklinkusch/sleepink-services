@@ -1,6 +1,6 @@
 /** @jsxImportSource theme-ui */
 
-import { Link } from "react-router-dom"
+import Pagination from "../Pagination/Pagination"
 
 function Vercel () {
   return (
@@ -34,9 +34,7 @@ function Vercel () {
           <li>Vanilla-JavaScript</li>
         </ul>
       </ul>
-      <div sx={{ mt: "50px" }}>
-        <Link to="/">Zurück zur Hauptseite</Link>
-      </div>
+      <Pagination prev={{ url: "/linode", title: "Linode" }} next={{ url: "/integromat", title: "Integromat" }} />
     </div>
   )
 }

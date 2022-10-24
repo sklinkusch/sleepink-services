@@ -1,6 +1,6 @@
 /** @jsxImportSource theme-ui */
 
-import { Link } from "react-router-dom"
+import Pagination from "../Pagination/Pagination"
 
 function Integromat () {
   return (
@@ -18,9 +18,7 @@ function Integromat () {
       </dl>
       <h2>Techniken</h2>
       <p>keine, aber bei Datentransformationen und API-Requests sind JavaScript-Kenntnisse vorteilhaft</p>
-      <div sx={{ mt: "50px" }}>
-        <Link to="/">Zurück zur Hauptseite</Link>
-      </div>
+      <Pagination prev={{ url: "/vercel", title: "Vercel" }} next={{ url: "/asana", title: "Asana" }} />
     </div>
   )
 }

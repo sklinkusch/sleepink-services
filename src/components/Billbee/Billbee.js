@@ -1,6 +1,6 @@
 /** @jsxImportSource theme-ui */
 
-import { Link } from "react-router-dom"
+import Pagination from "../Pagination/Pagination"
 
 function Billbee () {
   return (
@@ -14,9 +14,7 @@ function Billbee () {
         <li>Bestandsmanagement im Lager</li>
         <li>API für Verkäufe und Neuversand</li>
       </ul>
-      <div sx={{ mt: "50px" }}>
-        <Link to="/">Zurück zur Hauptseite</Link>
-      </div>
+      <Pagination prev={{ url: "/shopify", title: "Shopify" }} next={{ url: "/linode", title: "Linode"}} />
     </div>
   )
 }

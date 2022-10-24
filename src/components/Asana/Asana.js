@@ -1,6 +1,6 @@
 /** @jsxImportSource theme-ui */
 
-import { Link } from "react-router-dom"
+import Pagination from "../Pagination/Pagination"
 
 function Asana () {
   return (
@@ -14,9 +14,7 @@ function Asana () {
       </ul>
       <h2>Techniken</h2>
       <p>keine</p>
-      <div sx={{ mt: "50px" }}>
-        <Link to="/">Zurück zur Hauptseite</Link>
-      </div>
+      <Pagination prev={{ url: "/integromat", title: "Integromat" }} next={{ url: "/slack", title: "Slack" }} />
     </div>
   )
 }

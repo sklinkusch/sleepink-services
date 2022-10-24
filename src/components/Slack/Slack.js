@@ -1,6 +1,6 @@
 /** @jsxImportSource theme-ui */
 
-import { Link } from "react-router-dom"
+import Pagination from "../Pagination/Pagination"
 
 function Slack () {
   return (
@@ -15,9 +15,7 @@ function Slack () {
       </ul>
       <h2>Techniken</h2>
       <p>keine</p>
-      <div sx={{ mt: "50px" }}>
-        <Link to="/">Zurück zur Hauptseite</Link>
-      </div>
+      <Pagination prev={{ url: "/asana", title: "Asana" }} next={{ url: "/netlify", title: "Netlify"}} />
     </div>
   )
 }
