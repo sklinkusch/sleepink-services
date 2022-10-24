@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.a6df221a.js",
-    "static/js/787.905e7f45.chunk.js": "/static/js/787.905e7f45.chunk.js",
-    "index.html": "/index.html",
-    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.a6df221a.js.map": "/static/js/main.a6df221a.js.map",
-    "787.905e7f45.chunk.js.map": "/static/js/787.905e7f45.chunk.js.map"
+    "main.css": "/sleepink-services/static/css/main.e6c13ad2.css",
+    "main.js": "/sleepink-services/static/js/main.ae24cce1.js",
+    "static/js/787.905e7f45.chunk.js": "/sleepink-services/static/js/787.905e7f45.chunk.js",
+    "static/media/Struktur.png": "/sleepink-services/static/media/Struktur.d94134a70191aaf247f6.png",
+    "index.html": "/sleepink-services/index.html",
+    "main.e6c13ad2.css.map": "/sleepink-services/static/css/main.e6c13ad2.css.map",
+    "main.ae24cce1.js.map": "/sleepink-services/static/js/main.ae24cce1.js.map",
+    "787.905e7f45.chunk.js.map": "/sleepink-services/static/js/787.905e7f45.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.a6df221a.js"
+    "static/js/main.ae24cce1.js"
   ]
 }
