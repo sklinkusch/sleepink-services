@@ -38,6 +38,9 @@ function Home () {
         <li>
           <Link to="/sanity">Sanity</Link>
         </li>
+        <li>
+          <Link to="/webseite">Struktur der alten Webseite</Link>
+        </li>
       </ul>
     </div>
   )

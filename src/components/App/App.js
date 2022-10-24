@@ -11,6 +11,7 @@ import Slack from '../Slack/Slack';
 import Netlify from '../Netlify/Netlify';
 import Github from '../Github/Github';
 import Sanity from '../Sanity/Sanity';
+import Webseite from '../Webseite/Webseite';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/shopify" element={<Shopify />} />
           <Route path="/slack" element={<Slack />} />
           <Route path="/vercel" element={<Vercel />} />
+          <Route path="/webseite" element={<Webseite />} />
           <Route path="" element={<Home />} />
           <Route path="*" element={<Home />} />
         </Routes>
