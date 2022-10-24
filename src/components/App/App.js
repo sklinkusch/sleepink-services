@@ -10,6 +10,7 @@ import Asana from "../Asana/Asana";
 import Slack from '../Slack/Slack';
 import Netlify from '../Netlify/Netlify';
 import Github from '../Github/Github';
+import Sanity from '../Sanity/Sanity';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/integromat" element={<Integromat />} />
           <Route path="/linode" element={<Linode />} />
           <Route path="/netlify" element={<Netlify />} />
+          <Route path="/sanity" element={<Sanity />} />
           <Route path="/shopify" element={<Shopify />} />
           <Route path="/slack" element={<Slack />} />
           <Route path="/vercel" element={<Vercel />} />

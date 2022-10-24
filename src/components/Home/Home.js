@@ -35,6 +35,9 @@ function Home () {
         <li>
           <Link to="/github">GitHub</Link>
         </li>
+        <li>
+          <Link to="/sanity">Sanity</Link>
+        </li>
       </ul>
     </div>
   )
