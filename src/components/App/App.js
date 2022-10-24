@@ -12,6 +12,7 @@ import Netlify from '../Netlify/Netlify';
 import Github from '../Github/Github';
 import Sanity from '../Sanity/Sanity';
 import Webseite from '../Webseite/Webseite';
+import Weitere from '../Weitere/Weitere';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/slack" element={<Slack />} />
           <Route path="/vercel" element={<Vercel />} />
           <Route path="/webseite" element={<Webseite />} />
+          <Route path="/weitere" element={<Weitere />} />
           <Route path="" element={<Home />} />
           <Route path="*" element={<Home />} />
         </Routes>

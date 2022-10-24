@@ -7,7 +7,7 @@ function Home () {
       <h1>
         Liste der sleep.ink-Services
       </h1>
-      <ul>
+      <ol>
         <li>
           <Link to="/shopify">Shopify</Link>
         </li>
@@ -41,7 +41,10 @@ function Home () {
         <li>
           <Link to="/webseite">Struktur der alten Webseite</Link>
         </li>
-      </ul>
+        <li>
+          <Link to="/weitere">Weitere Services</Link>
+        </li>
+      </ol>
     </div>
   )
 }
