@@ -26,6 +26,9 @@ function Home () {
         <li>
           <Link to="/asana">Asana</Link>
         </li>
+        <li>
+          <Link to="/slack">Slack</Link>
+        </li>
       </ul>
     </div>
   )
