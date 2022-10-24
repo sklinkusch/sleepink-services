@@ -8,6 +8,7 @@ import Shopify from '../Shopify/Shopify';
 import Vercel from "../Vercel/Vercel";
 import Asana from "../Asana/Asana";
 import Slack from '../Slack/Slack';
+import Netlify from '../Netlify/Netlify';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/billbee" element={<Billbee />} />
           <Route path="/integromat" element={<Integromat />} />
           <Route path="/linode" element={<Linode />} />
+          <Route path="/netlify" element={<Netlify />} />
           <Route path="/shopify" element={<Shopify />} />
           <Route path="/slack" element={<Slack />} />
           <Route path="/vercel" element={<Vercel />} />

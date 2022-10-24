@@ -29,6 +29,9 @@ function Home () {
         <li>
           <Link to="/slack">Slack</Link>
         </li>
+        <li>
+          <Link to="/netlify">Netlify</Link>
+        </li>
       </ul>
     </div>
   )
