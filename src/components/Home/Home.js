@@ -32,6 +32,9 @@ function Home () {
         <li>
           <Link to="/netlify">Netlify</Link>
         </li>
+        <li>
+          <Link to="/github">GitHub</Link>
+        </li>
       </ul>
     </div>
   )

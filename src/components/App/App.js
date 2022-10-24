@@ -9,6 +9,7 @@ import Vercel from "../Vercel/Vercel";
 import Asana from "../Asana/Asana";
 import Slack from '../Slack/Slack';
 import Netlify from '../Netlify/Netlify';
+import Github from '../Github/Github';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/asana" element={<Asana />} />
           <Route path="/billbee" element={<Billbee />} />
+          <Route path="/github" element={<Github />} />
           <Route path="/integromat" element={<Integromat />} />
           <Route path="/linode" element={<Linode />} />
           <Route path="/netlify" element={<Netlify />} />
