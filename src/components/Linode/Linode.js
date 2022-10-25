@@ -49,7 +49,7 @@ function Linode () {
       </dl>
       <h2>Wichtig</h2>
       <ul>
-        <li>Am Betriebssystem auf dem Linode muss in regelmäßigen Abständen ein Systemupdate durchgeführt werden. Danach muss der Linod oft rebootet werden.</li>
+        <li>Am Betriebssystem auf dem Linode muss in regelmäßigen Abständen ein Systemupdate durchgeführt werden. Danach muss der Linode oft rebootet werden.</li>
         <li>Die Skripte laufen nur ca. 3-4 Wochen, danach stoppen sie aus unbekannten Gründen. Deshalb müssen die Skripte nach dieser Zeit gestoppt und neu gestartet werden.</li>
       </ul>
       <h2>Techniken</h2>
