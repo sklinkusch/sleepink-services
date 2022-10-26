@@ -12,7 +12,7 @@ function Linode () {
         <dt>node-shipment:</dt>
         <dd>
           <ul>
-            <li>Abholung aktueller Bestellungen von der Shopify-API</li>
+            <li>Abholung aktueller Bestellungen von der Billbee-API</li>
             <li>Speicherung dieser Bestellungen in einem Sanity CMS</li>
             <li>Update der Bestellungen (z.B. Versandnummer, Bezahlstatus)</li>
           </ul>
@@ -40,7 +40,7 @@ function Linode () {
         <dt>zwei weitere Skripte</dt>
         <dd>
           <ul>
-            <li>tägliche Abholung des Lagerbestands von der Billbee API und lokale Speicherung in einer JSON-Datei</li>
+            <li>tägliche Abholung des Lagerbestands von der Billbee-API und lokale Speicherung in einer JSON-Datei</li>
             <li>tägliche Abholung der Verkäufe vom Sanity CMS und lokale Speicherung in einer JSON-Datei</li>
             <li>Lesen der Zeiten, in denen bestimmte Produkte nicht verkauft werden, aus einer JSON-Datei</li>
             <li>alle zwei Wochen: Berechnung, wie lange die Lagerbestände noch reichen, Erstellung eines Berichts und Sendung des Berichts an den #logistik-Channel im Daizu-Slack über einen Integromat-Webhook)</li>
